@@ -6,8 +6,7 @@ name: build
 on:
   push:
     branches:
-      - main
-      - branch-*
+      - "**"
 
   workflow_dispatch:
 
